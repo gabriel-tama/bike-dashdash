@@ -1,0 +1,66 @@
+# Streamlit Dashboard
+
+This repository contains a Streamlit dashboard for visualizing and interacting with data. Follow the steps below to set up and run the dashboard locally.
+
+## Data
+
+The data was obtained from the dicoding with links below 
+
+[Kaggle](https://www.kaggle.com/datasets/lakshmi25npathi/bike-sharing-dataset/data)
+
+
+## Prerequisites
+
+Ensure you have the following installed on your system:
+- [Python 3.8](https://www.python.org/downloads/)
+- [pip](https://pip.pypa.io/en/stable/installation/)
+
+## Setup
+
+1. **Clone the repository**:
+    ```bash
+    git clone https://github.com/your-username/your-repo-name.git
+    cd your-repo-name
+    ```
+
+2. **Create a virtual environment** (recommended):
+    ```bash
+    python3 -m venv venv
+    source venv/bin/activate   # On macOS/Linux
+    venv\Scripts\activate      # On Windows
+    ```
+
+3. **Change dir into ./dashboard** :
+    ```bash
+    cd <repo_name>/dashboard
+    ```
+
+4. **Install dependencies**:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+
+## Running the Dashboard
+
+1. **Run Streamlit**:
+    ```bash
+    streamlit run main.py
+    ```
+
+
+2. **Open the Dashboard**:
+    - Once the server starts, Streamlit will provide a local URL (usually http://localhost:8501). Open this URL in your web browser to view the dashboard.
+
+
+## Deployment
+
+To deploy your Streamlit app, consider using:
+- [Streamlit Community Cloud](https://streamlit.io/cloud)
+- [Heroku](https://www.heroku.com/)
+- [AWS](https://aws.amazon.com/)
+
+Refer to the Streamlit documentation for detailed deployment guides.
+
+
+Happy Streaming!
